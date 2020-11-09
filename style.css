@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    
+    display:flex;
+    justify-content:center;
+    align-items: center ;
+}
+.quadrado{
+    text-align: center;
+    width:50px;
+    background-color: #eee;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color:#eee;
+
+}
+.wrapper{
+    display:flex;
+    flex-direction: column;
+    padding: 140px;
+    justify-content:center;
+    text-align: center;
+}
+
+.label{
+    font-size:30px;
+    margin-top:10x;
+}  
+.reinicia{
+    margin-top:10px;
+    width: 100px;
+    height: 30px;
+    background:#eee;
+    cursor: pointer;
+}
